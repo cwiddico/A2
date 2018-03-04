@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect-Four"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/play_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        android:id="@+id/options_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:id="@+id/quit_button"/>
+
+</LinearLayout>
